@@ -1,0 +1,24 @@
+/* Overrides of the regulations.min.css file */
+.nc-homepage .hero {
+  padding: 0;
+}
+
+.nc-homepage .hero-content h1 {
+  margin-top: 60px;
+}
+
+.nc-homepage .proposed-rule {
+  padding: 15px;
+}
+
+.nc-homepage .read-closed-proposed-rule strong {
+  float: none;
+}
+
+.nc-homepage .read-closed-proposed-rule a {
+  display: inline;
+}
+
+.nc-homepage .hero-background {
+  height: 472px;
+}
