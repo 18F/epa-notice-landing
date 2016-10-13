@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"licenseKey":"25e36ce743","applicationID":"17753526","transactionName":"MlYAZktRWkdYAkNRDAscJEdXU0BdVg8YXAkEXQVdF11dUF0NUk8CF1ZMUVhTXFEDJ1JMAA11EF1Uc1VXUQR6UQcBXwdFWEJRGkkTWFsGFkA9QFxBQVFKFQ==","errorBeacon":"bam.nr-data.net","agent":"","applicationTime":1,"queueTime":0,"beacon":"bam.nr-data.net"}</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+        eRegulations
+        </title>
+        
+
+<link rel="shortcut icon" type="image/png" href="/static/notice_and_comment/favicon.png"/>
+
+        
+        <script>
+          window.APP_PREFIX = "/";
+        </script>
+        
+          <link rel="stylesheet" href="/static/regulations/css/regulations.min.css"/>
+          <script>
+            ;window.Modernizr=function(a,b,c){function v(a){j.cssText=a}function w(a,b){return v(prefixes.join(a+";")+(b||""))}function x(a,b){return typeof a===b}function y(a,b){return!!~(""+a).indexOf(b)}function z(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:x(f,"function")?f.bind(d||b):f}return!1}var d="2.7.0",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m={},n={},o={},p=[],q=p.slice,r,s=function(a,c,d,e){var f,i,j,k,l=b.createElement("div"),m=b.body,n=m||b.createElement("body");if(parseInt(d,10))while(d--)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=["&#173;",'<style id="s',h,'">',a,"</style>"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},t={}.hasOwnProperty,u;!x(t,"undefined")&&!x(t.call,"undefined")?u=function(a,b){return t.call(a,b)}:u=function(a,b){return b in a&&x(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=q.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(q.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(q.call(arguments)))};return e}),m.history=function(){return!!a.history&&!!history.pushState},m.fontface=function(){var a;return s('@font-face {font-family:"font";src:url("https://")}',function(c,d){var e=b.getElementById("smodernizr"),f=e.sheet||e.styleSheet,g=f?f.cssRules&&f.cssRules[0]?f.cssRules[0].cssText:f.cssText||"":"";a=/src/i.test(g)&&g.indexOf(d.split(" ")[0])===0}),a};for(var A in m)u(m,A)&&(r=A.toLowerCase(),e[r]=m[A](),p.push((e[r]?"":"no-")+r));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)u(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},v(""),i=k=null,e._version=d,e.testStyles=s,g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+p.join(" "):""),e}(this,this.document),function(a,b){function l(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function m(){var a=s.elements;return typeof a=="string"?a.split(" "):a}function n(a){var b=j[a[h]];return b||(b={},i++,a[h]=i,j[i]=b),b}function o(a,c,d){c||(c=b);if(k)return c.createElement(a);d||(d=n(c));var g;return d.cache[a]?g=d.cache[a].cloneNode():f.test(a)?g=(d.cache[a]=d.createElem(a)).cloneNode():g=d.createElem(a),g.canHaveChildren&&!e.test(a)&&!g.tagUrn?d.frag.appendChild(g):g}function p(a,c){a||(a=b);if(k)return a.createDocumentFragment();c=c||n(a);var d=c.frag.cloneNode(),e=0,f=m(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function q(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return s.shivMethods?o(c,a,b):b.createElem(c)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+m().join().replace(/\w+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(s,b.frag)}function r(a){a||(a=b);var c=n(a);return s.shivCSS&&!g&&!c.hasCSS&&(c.hasCSS=!!l(a,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),k||q(a,c),a}function w(a){var b,c=a.getElementsByTagName("*"),d=c.length,e=RegExp("^(?:"+m().join("|")+")$","i"),f=[];while(d--)b=c[d],e.test(b.nodeName)&&f.push(b.applyElement(x(b)));return f}function x(a){var b,c=a.attributes,d=c.length,e=a.ownerDocument.createElement(u+":"+a.nodeName);while(d--)b=c[d],b.specified&&e.setAttribute(b.nodeName,b.nodeValue);return e.style.cssText=a.style.cssText,e}function y(a){var b,c=a.split("{"),d=c.length,e=RegExp("(^|[\\s,>+~])("+m().join("|")+")(?=[[\\s,>+~#.:]|$)","gi"),f="$1"+u+"\\:$2";while(d--)b=c[d]=c[d].split("}"),b[b.length-1]=b[b.length-1].replace(e,f),c[d]=b.join("}");return c.join("{")}function z(a){var b=a.length;while(b--)a[b].removeNode()}function A(a){function g(){clearTimeout(d._removeSheetTimer),b&&b.removeNode(!0),b=null}var b,c,d=n(a),e=a.namespaces,f=a.parentWindow;return!v||a.printShived?a:(typeof e[u]=="undefined"&&e.add(u),f.attachEvent("onbeforeprint",function(){g();var d,e,f,h=a.styleSheets,i=[],j=h.length,k=Array(j);while(j--)k[j]=h[j];while(f=k.pop())if(!f.disabled&&t.test(f.media)){try{d=f.imports,e=d.length}catch(m){e=0}for(j=0;j<e;j++)k.push(d[j]);try{i.push(f.cssText)}catch(m){}}i=y(i.reverse().join("")),c=w(a),b=l(a,i)}),f.attachEvent("onafterprint",function(){z(c),clearTimeout(d._removeSheetTimer),d._removeSheetTimer=setTimeout(g,500)}),a.printShived=!0,a)}var c="3.7.0",d=a.html5||{},e=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,f=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,g,h="_html5shiv",i=0,j={},k;(function(){try{var a=b.createElement("a");a.innerHTML="<xyz></xyz>",g="hidden"in a,k=a.childNodes.length==1||function(){b.createElement("a");var a=b.createDocumentFragment();return typeof a.cloneNode=="undefined"||typeof a.createDocumentFragment=="undefined"||typeof a.createElement=="undefined"}()}catch(c){g=!0,k=!0}})();var s={elements:d.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video",version:c,shivCSS:d.shivCSS!==!1,supportsUnknownElements:k,shivMethods:d.shivMethods!==!1,type:"default",shivDocument:r,createElement:o,createDocumentFragment:p};a.html5=s,r(b);var t=/^$|\b(?:all|print)\b/,u="html5shiv",v=!k&&function(){var c=b.documentElement;return typeof b.namespaces!="undefined"&&typeof b.parentWindow!="undefined"&&typeof c.applyElement!="undefined"&&typeof c.removeNode!="undefined"&&typeof a.attachEvent!="undefined"}();s.type+=" print",s.shivPrint=A,A(b)}(this,document);
+          </script>
+          <script src="/static/regulations/js/built/regulations.min.js"></script>
+        
+        
+
+    </head>
+    <!--[if lt IE 7]>      <body class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <body class="lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <body class="lt-ie9"> <![endif]-->
+    <!--[if IE 9]>         <body class="lt-ie10"> <![endif]-->
+    <!--[if gt IE 9]><!--><body><!--<![endif]-->
+
+    
+    
+      
+
+
+  <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA" id="_fed_an_ua_tag"></script>
+
+
+    
+
+    
+
+  <div id="content-body">
+
+    <header id="site-header" class="reg-header nc-homepage-header" role="banner">
+    
+
+
+
+<div class="main-head">
+    <div class="title">
+        <h1 class="site-title"><a href="/"><span class="e">e</span>Regulations</a></h1>
+        
+    </div> <!-- /reg-title -->
+    <nav class="app-nav">
+        <a href="#" class="mobile-nav-trigger">
+             <span class="cf-icon cf-icon-menu"></span>
+             <span class="icon-text">Mobile navigation</span>
+        </a>
+        <ul class="app-nav-list">
+            <li class="app-nav-list-item">
+              <span class="app-nav-list-text">Partnership between</span>
+            </li>
+            <li class="app-nav-list-item logo-list-item">
+              <a href="https://epa.gov" title="EPA Home">
+                  <img class="logo" src="/static/regulations/img/logo-epa.png" alt="Environmental Protection Agency"/>
+              </a>
+            </li>
+            <li class="app-nav-list-item logo-list-item">
+              <a href="https://18f.gsa.gov" title="18F Home">
+                  <img class="logo" src="/static/regulations/img/logo-18f.png" alt="18F"/>
+              </a>
+            </li>
+            <li class="app-nav-list-item logo-list-item">
+              <a href="https://gsa.gov" title="GSA Home">
+                  <img class="logo" src="/static/regulations/img/logo-gsa.png" alt="General Services Administration"/>
+              </a>
+            </li>
+            <li class="app-nav-list-item nav-item-mobile"><span class="app-nav-list-text"><a href="http://www.epa.gov">epa.gov <span class="cf-icon cf-icon-external-link"></span></a></span></li>
+            <li class="app-nav-list-item nav-item-mobile"><span class="app-nav-list-text"><a href="http://18f.gsa.gov">18f.gsa.gov <span class="cf-icon cf-icon-external-link"></span></a></span></li>
+            <li class="app-nav-list-item nav-item-mobile"><span class="app-nav-list-text"><a href="http://www.gsa.gov">gsa.gov <span class="cf-icon cf-icon-external-link"></span></a></span></li>
+        </ul>
+    </nav>
+</div>
+
+    </header>
+
+    <div class="nc-homepage">
+
+      <div class="hero-background"></div>
+
+      <section class="hero">
+
+        <div class="hero-content">
+          <h1>Read, understand, and comment on new proposed regulations.</h1>
+          <h2>EPA is soliciting comment on the following:</h2>
+
+          
+          <div class="proposed-rule">
+
+            <div class="comments-date group">
+
+                
+                  <div class="due">Comments are due in <strong>0 days!</strong></div>
+                  <div class="date"><span class="fa fa-exclamation-triangle"></span> Ended September 26, 2016 at 11:59pm.</div>
+                
+
+            </div>
+
+            <div class="agency">
+                EPA
+            </div>
+
+            <div class="proposed-rule-title">
+              Hazardous Waste Management System; User Fees for the Electronic Hazardous Waste Manifest System and Amendments to Manifest Regulations
+            </div>
+
+          </div>
+
+          
+            <div class="read-closed-proposed-rule">
+              <strong>The comment period is closed.</strong>
+              <a href="/preamble/2016_15845">
+                Read the proposed rule
+                <span class="fa fa-chevron-right" aria-hidden="true"></span>
+              </a>
+            </div>
+          
+          
+        </div>
+
+      </section>
+
+      <section class="call-out">
+        <div class="call-out-content">
+          Even as an individual, you can <strong>substantially change a regulation</strong> by writing a helpful comment on a proposed rule.
+        </div>
+      </section>
+
+      <section class="read-and-write">
+
+        <h2>Read and write with ease</h2>
+
+        <ul>
+          <li>
+            <div class="image">
+              <img class="logo" src="/static/regulations/img/read.png" alt="Read"/>
+            </div>
+            <div class="content">
+              <h3>Read proposed changes in context</h3>
+              <p>See the proposed changes <strong>highlighted in comparison to the current regulation</strong> at a glance.
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <img class="logo" src="/static/regulations/img/write.png" alt="Write"/>
+            </div>
+            <div class="content">
+              <h3>Write responses to individual sections</h3>
+              <p><strong>Respond to sections of the rule,</strong> then submit all your responses together as one neatly-organized comment.</p>
+          </li>
+          <li>
+            <div class="image">
+              <img class="logo" src="/static/regulations/img/analyze.png" alt="Analyze"/>
+            </div>
+            <div class="content">
+              <h3>Help agencies sort &amp; analyze your comment</h3>
+              <p>When you submit your comment, the agency will see which sections you responded to. <strong>This helps the agency sort and analyze your comments.</strong>
+            </div>
+          </li>
+        </ul>
+
+        <div class="other-ways">
+          <div class="toggle">
+            <div class="button" aria-expanded="false">
+              <span class="button-title">Other ways to read and comment</span>
+              <div class="button-icon">
+                <span class="cf-icon cf-icon-plus-round toggle-button-open" aria-hidden="false"></span>
+                <span class="cf-icon cf-icon-minus-round toggle-button-close" aria-hidden="false"></span>
+              </div>
+            </div>
+            <div class="collapsible" aria-hidden="false">
+              <p>If you prefer, you can use a different way to read and comment on EPA proposed rules:</p>
+
+              <ul>
+                <li><a href="https://www.federalregister.gov/agencies/environmental-protection-agency#comment-period-opening" class="external " target="_blank"
+   
+   aria-label="Link opens in a new window">See EPA's proposed rules on FederalRegister.gov</a>
+</li>
+                <li><a href="https://www.regulations.gov/searchResults?rpp=25&so=DESC&sb=postedDate&po=0&cat=AEP&a=EPA&dct=PR%2BN" class="external " target="_blank"
+   
+   aria-label="Link opens in a new window">See EPA's proposed rules on Regulations.gov</a>
+</li>
+                <li><a href="https://www.epa.gov/dockets/where-send-comments-epa-dockets" class="external " target="_blank"
+   
+   aria-label="Link opens in a new window">Additional submission formats accepted by EPA</a>
+</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="good-comment">
+
+        <div class="good-comment-content">
+
+          <h2>Build a good comment:</h2>
+
+          <ul>
+            <li>
+              <div class="triangle"></div>
+              <span>
+                <strong>Explain why</strong> you agree or disagree; suggest alternatives and substitute language for your requested changes.
+              </span>
+            </li>
+            <li>
+              <div class="triangle"></div>
+              <span>
+                <strong>Provide specific examples</strong> to illustrate your concerns.
+              </span>
+            </li>
+            <li>
+              <div class="triangle"></div>
+              <span>
+                <strong>Base your comments on sound reasoning,</strong> scientific evidence, and/or how you will be impacted by the proposal.
+              </span>
+            </li>
+            <li>
+              <div class="triangle"></div>
+              <span>
+                <strong>Address trade-offs and opposing views.</strong>
+              </span>
+            </li>
+            <li>
+              <div class="triangle"></div>
+              <span>
+                <strong>Identify your relevant credentials and experience.</strong>
+              </span>
+            </li>
+            <li>
+              <div class="triangle"></div>
+              <span>
+                You don't have to comment on everything - you can <strong>select those issues that concern and affect you the most</strong> and/or you understand the best.
+              </span>
+            </li>
+          </ul>
+
+          <div class="more-tips">
+            Want more tips?
+          </div>
+
+          <div class="more-tips-links">
+            <a href="https://www.epa.gov/dockets/commenting-epa-dockets" target="_blank">EPA's tips for writing effective comments <span class="cf-icon cf-icon-external-link"></span></a><br/>
+            <a href="https://www.regulations.gov/docs/Tips_For_Submitting_Effective_Comments.pdf" target="_blank">Regulation.gov's detailed tips for commenting <span class="cf-icon cf-icon-external-link"></span></a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="about-this-tool">
+
+        <h2>About this tool</h2>
+
+        <div class="about-this-tool-content">
+
+          <img class="logo" src="/static/regulations/img/about.png" alt="About this tool"/>
+
+          <div class="about-this-tool-info">
+            <p>This eRegulations tool was developed by <a href="https://18f.gsa.gov" target="_blank">18F <span class="cf-icon cf-icon-external-link"></span></a> (part of the <a href="http://www.gsa.gov" target="_blank">General Services Administration <span class="cf-icon cf-icon-external-link"></span></a>) in partnership with EPA.</p>
+            <p><strong>Learn more about the eRegulations platform at <a href="https://eregs.github.io" target="_blank">eregs.github.io <span class="cf-icon cf-icon-external-link"></span></a></strong></p>
+          </div>
+
+        </div>
+
+        <div class="feedback">
+          <h3>We want to hear from you!</h3>
+          <p>To give feedback on this tool, <a href="https://github.com/18F/epa-notice/issues/new" target="_blank">open a new issue in this repository <span class="cf-icon cf-icon-external-link"></span></a> (requires a free login).
+        </div>
+
+      </section>
+
+      <section class="footer">
+
+        <span>Partnership between</span>
+        <a href="https://epa.gov" title="EPA Home">
+            <img class="logo" src="/static/regulations/img/logo-epa.png" alt="Environmental Protection Agency"/>
+        </a>
+        <a href="https://18f.gsa.gov" title="18F Home">
+            <img class="logo" src="/static/regulations/img/logo-18f.png" alt="18F"/>
+        </a>
+        <a href="https://gsa.gov" title="GSA Home">
+            <img class="logo" src="/static/regulations/img/logo-gsa.png" alt="General Services Administration"/>
+        </a>
+
+        <div class="privacy-footer">
+          <span>
+            This site follows the <a href="https://www.regulations.gov/privacyNotice">Privacy and Security policy <span class="cf-icon cf-icon-external-link"></span></a> of Regulations.gov.
+          </span>
+        </div>
+
+      </section>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript" language="javascript" src="//ethn.io/95928.js" async="true" charset="utf-8"></script>
+
+    </body>
+</html>
