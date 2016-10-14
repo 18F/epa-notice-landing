@@ -4,11 +4,15 @@
 }
 
 .nc-homepage .hero-content h1 {
-  margin-top: 100px;
+  margin-top: 85px;
+}
+
+.nc-homepage .hero-content h2 {
+  margin: 50px 0 25px;
 }
 
 .nc-homepage .proposed-rule {
-  padding: 15px;
+  padding: 25px;
 }
 
 
